@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+
+body {
+    background: url("https://www.aludecor.com/pub/media/catalog/product/cache/afad95d7734d2fa6d0a8ba78597182b7/a/d/ad-32-metallic-black.jpg");
+    background-size: 100% 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+div {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 10%;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+img {
+    width: 80%;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h2,
+h3 {
+    font-size: 2.5em;
+
+}
+
+p {
+    font-size: 1.5em;
+}
+
+img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 5px 5px whitesmoke;
+}
+
+h3:hover {
+    animation: move 3s infinite;
+}
+
+@keyframes move {
+    0% {
+        color: rgb(117, 113, 113);
+    }
+
+    50% {
+        color: rgb(236, 215, 215);
+    }
+
+    100% {
+        color: rgb(117, 113, 113);
+    }
+}
